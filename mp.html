@@ -1,0 +1,27 @@
+<!doctype html>
+<head>
+	<title>Text Analyser</title>
+	<style>
+		.div1{
+			background-color:#2b9ad4;
+			color:#fcfefd;
+			font-size:35px;
+			}
+	</style>
+</head>
+<body>
+		<div style = "background-color: 33E9FF;"
+		<div class="div1">
+	  	<p align=center><br>Text Analyser<br></p>
+		</div>
+		<p style= font-size:18px>Enter the paragraph</p>
+		<form action = "/predict" method = 'post'>
+			<textarea id = "iptext1" name="iptext1" style="width: 682px; height: 211px; align: center"></textarea><br>
+			<button type="submit">submit</button><br>
+			<textarea id =  "iptext2" name="iptext2" style="width: 682px; height: 211px; align: center">Difficulty level: {{result}}
+      </textarea><br>
+			<div class="div1"><p></p></div>
+		</form>
+	</div>
+</body>
+</html>
